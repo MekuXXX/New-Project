@@ -880,6 +880,11 @@ header nav .form:before{
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 20px;
+    transition: 0.4s;
+}
+.pricing .container .mid .plan a:hover{
+    background-color: var(--main-color);
+    color: white;
 }
 .pricing .container .cont{
     display: block;
